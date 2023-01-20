@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.3",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "senchess-backend",
+  "version": "1.0.0",
+  "description": "senchess backend",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "author": "Mark (ghostman)",
+  "license": "ISC"
+}
